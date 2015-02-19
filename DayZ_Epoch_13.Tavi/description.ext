@@ -189,3 +189,6 @@ class DayZ_loadingScreen
 #include "custom\Buildables\MT_Defines.hpp"
 #include "custom\Buildables\Crafting_Defines.hpp"
 #include "custom\Buildables\Crafting_Dialogs.hpp"
+
+#include "custom\paint\defines.hpp"
+#include "custom\paint\vehiclecolour.hpp"
