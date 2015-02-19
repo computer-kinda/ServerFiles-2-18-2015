@@ -532,7 +532,7 @@ if (!isNull cursorTarget && !_inVehicle && !_isPZombie && (player distance curso
 					s_player_lockunlock set [count s_player_lockunlock,_lock];
 					if (_typeOfCursorTarget in ColourVehicles) then {
 					private ["_paint"];
-					_paint = player addAction ["Paint", "Paint\player_paint_init.sqf",_cursorTarget, 2, true, true, "", ""];
+					_paint = player addAction ["Paint", "custom\paint\player_paint_init.sqf",_cursorTarget, 2, true, true, "", ""];
 					s_player_lockunlock set [count s_player_lockunlock,_paint];
 					};
 					s_player_lockUnlock_crtl = 1;
