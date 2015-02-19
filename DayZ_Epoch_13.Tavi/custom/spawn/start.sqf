@@ -53,5 +53,6 @@ if (_go) then {
 	fnc_usec_damageHandler = compile preprocessFileLineNumbers "\z\addons\dayz_code\compile\fn_damageHandler.sqf";
 	enableEnvironment true;
 	0 fadeSound 1;
+	[] execVM "custom\intro\intro.sqf";
 	if (isNil "_halo") then {cutText ["","BLACK IN"];};
 };

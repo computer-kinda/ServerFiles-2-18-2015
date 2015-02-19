@@ -89,6 +89,7 @@ if (!isDedicated) then {
 	[] execVM "custom\spawn\start.sqf";
 	execVM "custom\ZSC\compiles\playerHud.sqf";
 	execVM "custom\dzgm\init.sqf";
+	
 
 	
 	execVM "custom\service_point\service_point.sqf";

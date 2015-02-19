@@ -17,6 +17,7 @@ if (_halo > 0) then {
 player hideObject false;
 enableEnvironment true;
 0 fadeSound 1;
+[] execVM "custom\intro\intro.sqf";
 cutText ["","BLACK IN"];
 
 if (!isNil "_haloDrop") then {
