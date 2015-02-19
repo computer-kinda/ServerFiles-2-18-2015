@@ -16,7 +16,14 @@ dayz_spawnselection = 0;
 MaxVehicleLimit = 300;
 MaxDynamicDebris = 0;
 
-EpochEvents = [["any","any","any","any",10,"Military"], ["any","any","any","any",25,"Treasure"], ["any","any","any","any",40,"Supplyitems"], ["any","any","any","any",55,"Construction"],["any","any","any","any",30,"crash_spawner"],["any","any","any","any",0,"crash_spawner"],["any","any","any","any",15,"supply_drop"],["any","any","any","any",34,"flybye"]];
+EpochEvents = [["any","any","any","any",10,"Military"], 
+["any","any","any","any",25,"Treasure"], 
+["any","any","any","any",40,"Supplyitems"], 
+["any","any","any","any",55,"Construction"],
+["any","any","any","any",30,"crash_spawner"],
+["any","any","any","any",20,"crash_spawner"],
+["any","any","any","any",15,"supply_drop"],
+["any","any","any","any",34,"flybye"]];
 dayz_MapArea = 20000;
 dayz_fullMoonNights = true;
 dayz_minpos = -26000; 
