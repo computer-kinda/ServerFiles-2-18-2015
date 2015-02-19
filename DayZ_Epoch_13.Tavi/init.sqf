@@ -90,11 +90,13 @@ if (!isDedicated) then {
 	execVM "custom\ZSC\compiles\playerHud.sqf";
 	execVM "custom\dzgm\init.sqf";
 	
-
+	VehicleColourPaint =			compile preprocessFileLineNumbers "custom\paint\vehicleColourPaint.sqf";
+	VehicleColourUpdate =			compile preprocessFileLineNumbers "custom\paint\VehicleColourUpdate.sqf";
+	VehicleColourUpdate2 =			compile preprocessFileLineNumbers "custom\paint\VehicleColourUpdate2.sqf";
+	player_paint =				compile preprocessFileLineNumbers "custom\paint\player_paint.sqf";	
 	
 	execVM "custom\service_point\service_point.sqf";
 	_nil = [] execVM "custom\VehicleKeyChanger\VehicleKeyChanger_init.sqf";
-
 
 };
 
