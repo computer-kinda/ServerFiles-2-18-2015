@@ -39,4 +39,50 @@ class Category_493 {
 		buy[] ={400000,"Coins"};
 		sell[] ={200000,"Coins"};
 	};
+	
+	class pook_H13_medevac{
+		type = "trade_any_vehicle";
+		buy[] ={200000,"Coins"};
+		sell[] ={100000,"Coins"};
+	};
+	class pook_H13_amphib{
+		type = "trade_any_vehicle";
+		buy[] ={200000,"Coins"};
+		sell[] ={100000,"Coins"};
+	};
+	class pook_H13_gunship{
+		type = "trade_any_vehicle";
+		buy[] ={200000,"Coins"};
+		sell[] ={100000,"Coins"};
+	};
+	class pook_H13_transport{
+		type = "trade_any_vehicle";
+		buy[] ={100000,"Coins"};
+		sell[] ={50000,"Coins"};
+	};
+	class pook_H13_civ{
+		type = "trade_any_vehicle";
+		buy[] ={100000,"Coins"};
+		sell[] ={50000,"Coins"};
+	};
+	class pook_H13_civ_white{
+		type = "trade_any_vehicle";
+		buy[] ={100000,"Coins"};
+		sell[] ={50000,"Coins"};
+	};
+	class pook_H13_civ_slate{
+		type = "trade_any_vehicle";
+		buy[] ={100000,"Coins"};
+		sell[] ={50000,"Coins"};
+	};
+	class pook_H13_civ_black{
+		type = "trade_any_vehicle";
+		buy[] ={100000,"Coins"};
+		sell[] ={50000,"Coins"};
+	};
+	class pook_H13_civ_yellow{
+		type = "trade_any_vehicle";
+		buy[] ={100000,"Coins"};
+		sell[] ={50000,"Coins"};
+	};
 };
