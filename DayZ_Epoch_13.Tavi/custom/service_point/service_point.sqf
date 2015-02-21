@@ -42,7 +42,7 @@ _repair_costs = [
 _repair_repairTime = 2; // time needed to repair each damaged part (in seconds)
  
 // rearm settings
-_rearm_enable = true; // enable or disable the rearm option
+_rearm_enable = false; // enable or disable the rearm option
 _rearm_costs = [
         ["ArmoredSUV_PMC_DZE",[CurrencyName,_coinsRearmSUV]], // special costs for a single vehicle type
         ["Air",[CurrencyName,_coinsRearmAir]], // 2 10oz Gold for helicopters and planes
