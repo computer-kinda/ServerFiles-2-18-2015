@@ -5,7 +5,8 @@
 if (!isDedicated) then {
 
 	"filmic" setToneMappingParams [0.07, 0.31, 0.23, 0.37, 0.011, 3.750, 6, 4]; setToneMapping "Filmic";
-
+	uh1y_pack = compile preprocessFileLineNumbers "custom\animate\uh1y_pack.sqf";
+	mv22_pack = compile preprocessFileLineNumbers "custom\animate\pack.sqf";
 	//player_useMeds =            compile preprocessFileLineNumbers "custom\selfblood\player_useMeds.sqf";
 	BIS_Effects_Burn = 				compile preprocessFile "\ca\Data\ParticleEffects\SCRIPTS\destruction\burn.sqf";
 	player_zombieCheck = 			compile preprocessFileLineNumbers "\z\addons\dayz_code\compile\player_zombieCheck.sqf";	//Run on a players computer, checks if the player is near a zombie

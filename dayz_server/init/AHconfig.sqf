@@ -150,5 +150,6 @@ _dayzActions =
 "s_player_lockunlock",
 "s_vehicle_lockunlock",
 "s_player_toggleSnap",
-"s_player_toggleSnapSelect"
+"s_player_toggleSnapSelect",
+"mv22_fold","mv22_unfold","mv22_open","mv22_close","suv_close","suv_open","mv22_fold","mv22_unfold"
 ];
