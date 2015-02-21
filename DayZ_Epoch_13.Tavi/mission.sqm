@@ -1417,7 +1417,7 @@ class Mission
 	};
 	class Sensors
 	{
-		items=5;
+		items=6;
 		class Item0
 		{
 			position[]={15309.663,-14.993002,9278.4912};
@@ -1504,6 +1504,28 @@ class Mission
 			{
 			};
 		};
+		
+		class Item5
+        {
+            position[]={947.783,25026};
+            a=50;
+            b=50;
+            activationBy="WEST";
+            repeating=1;
+            interruptable=1;
+            age="UNKNOWN";
+            name="adminBase";
+            expCond="(vehicle player) in thislist;";
+            expActiv="adminbase = [] execVM ""custom\BaseProtect\baseprotect.sqf"";";
+            expDesactiv="terminate adminbase; titleText [""You have left the Admin Base!"", ""PLAIN DOWN"", 3];";
+            class Effects
+            {
+                titleType="TEXT";
+                titleEffect="PLAIN DOWN";
+                title="You are entering a restricted zone.";
+           
+            };
+        };
 	};
 };
 class Intro
