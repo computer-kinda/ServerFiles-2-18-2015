@@ -471,6 +471,7 @@ class FSM
 		"_targetPosition = getPosATL _target;" \n
 		"_agentPosition = getPosATL _agent;" \n
 		"_targetdistance = _agent distance _target;" \n
+		"_r = 0;" \n
 		"if ( _targetdistance < 2.2 ) then" \n
 		"{_r = 1;};" \n
 		"if (_targetdistance > 2.2 AND _targetdistance < 10) then" \n
